@@ -1,0 +1,23 @@
+There are many variations on the rules for 21 Card Game, but here is how I was taught to play by my grandfather:
+
+GOAL: 
+    - Aim of the 21 Card Game is to get 21 or as close to as possible.
+
+RULES:
+    - We take turns in being the dealer – 1 hand each.
+    
+    - Number cards have their face value, jacks, kings and queens are worth 10. Ace can be either 1 or 11 and the player who holds the ace gets to choose the value of the card.
+    
+    - The dealer and all other players have two cards. With the exception of the dealer the players have their cards face up{cards shown). The dealer has one card up and one card face down.
+    
+    - The dealer goes to each player one at a time. The player needs to decide if they want another card (hit) or will keep what cards they have. You can have as many cards as you like as long as you don’t go over 21.
+    
+    - The dealer does this with every player and goes last him\her self. On the dealers turn he\she then turns over their face down card and needs to decide what to do(hit or sit). 
+
+    - If the dealer has 16 or under then they must take another card.
+    
+    - If the dealer has 21 (Ace and a ten value card) the dealer wins.
+    
+    - If the dealer goes bust then everyone else wins.
+    
+    - We reshuffle the deck of cards after every game.
