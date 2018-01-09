@@ -8,68 +8,58 @@
 		<meta name="description" content="A card game called 21">
 		<meta name="author" content="Paul McCarthy">
 		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700|Roboto:400,400i,500,700" rel="stylesheet">
-		<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+		<!-- <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'> -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-		
+		<link rel="stylesheet" href="fullPage.js-master/jquery.fullPage.css">
+		<link rel="stylesheet" href="21.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
 	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-	    <style type="text/css">
-	    	#page-wrapper {
+	    <script src="fullPage.js-master/jquery.fullPage.js"></script>
 
-	    	}
-
-	    	header#page-header {
-				
-	    	}
-
-	    	#page-title {
-				
-	    	}
-
-	    	#page-title img#title-cards-img {
-				width: 122px;
-				height: 122px;
-	    	}
-
-	    	main#page-main {
-
-	    	}
-
-	    	footer#page-footer {
-
-	    	}
-
-	    	#footer-above {
-
-	    	}
-
-	    	#footer-below {
-
-	    	}
-	    </style>
+	    <script src="21.js"></script>
 	</head>
 	<body class="bg-dark">
-		<div class="container bg-dark" id="page-wrapper">
-			<header id="page-header">
-				<h1 class="text-center text-light" id="page-title">
+		<div class="container bg-dark" id="fullpage">
+			<header class="section bg-danger" id="page-header">
+				<button type="button" class="btn btn-outline-info" >
+					<span class="fa fa-info-circle"></span>
+				</button>
+				<h1 class="text-center text-success" id="page-title">
 					<img src="img/cards.png" id="title-cards-img">
 					<strong>21</strong>
+					<button class="btn btn-md btn-outline-success d-block m-auto" id="play-btn" onclick="javascript: window.scrollTo(0, 10)">
+						Play 21
+						<span class="fa fa-arrow-alt-circle-down"></span>
+					</button>
 				</h1>
-				<hr>
 			</header>
-			<main id="page-main">
-				
+			<main class="section" id="page-main">
+				<section class="game-section bg-primary" id="dealer-section">
+					
+				</section>
+				<section class="game-section bg-info" id="player-section">
+					<div class="player-ctrls-container">
+						
+					</div>
+				</section>
 			</main>
-			<footer id="page-footer">
+			<footer class="section" id="page-footer">
 				<div id="footer-above">
 					
 				</div>
-				<div class="fixed-bottom" id="footer-below">
+				<div class="" id="footer-below">
 					
 				</div>
 			</footer>
 		</div> <!-- .container #page-wrapper -->
+		<script type="text/javascript">
+	        $(document).ready(function() {
+	            $('#fullpage').fullpage();
+	        });
+    	</script>
 	</body>
 </html>
+ 
