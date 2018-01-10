@@ -1,0 +1,5 @@
+This file holds links and other citation information on the creators of the images used 
+in this projects.
+
+img/playing-cards/cards/ * - https://github.com/notpeter/Vector-Playing-Cards.
+img/cards.png - http://www.ardisoft.net/svg-z-cards/
